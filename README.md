@@ -90,7 +90,7 @@ I am a **Software Developer** focused on building responsive, user-centered web 
 
 <p align="center">
   <img src="https://github-stats-extended.vercel.app/api?username=Thabisomaqhawengwenya&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Thabiso's GitHub Stats" width="48%" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Thabisomaqhawengwenya&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Thabisomaqhawengwenya&layout=compact&theme=tokyonight&hide_border=true&hide=html,css,javascript" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
