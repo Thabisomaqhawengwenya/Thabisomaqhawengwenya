@@ -89,7 +89,7 @@ I am a **Software Developer** focused on building responsive, user-centered web 
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=Thabisomaqhawengwenya&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Thabiso's GitHub Stats" width="48%" />
+  <img src="github-stats.svg" alt="Thabiso's GitHub Stats" width="48%" />
   <img src="top-languages.svg" alt="Top Languages" width="48%" />
 </p>
 
