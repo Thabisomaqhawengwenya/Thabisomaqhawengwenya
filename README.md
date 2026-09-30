@@ -1,4 +1,4 @@
-<h1 align="center">Hi there! I'm Thabiso Maqhawe Ngwenya 👋</h1>
+<h1 align="center">Hi there! I'm  Maqhawe Thabiso Ngwenya 👋</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com/?lines=Software+Developer;React.js+%E2%80%A2+JavaScript+%E2%80%A2+Python+%E2%80%A2+Node.js;Building+responsive,+user-centered+experiences;UI%2FUX+%26+Frontend+Development&font=Fira+Code&center=true&width=500&height=45&color=6366f1&vCenter=true&size=20" alt="Typing SVG" />
