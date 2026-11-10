@@ -1,142 +1,117 @@
-<svg width="960" height="230" viewBox="0 0 960 230" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle heroDesc">
+<svg width="960" height="308" viewBox="0 0 960 308" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle heroDesc">
   <title id="heroTitle">Maqhawe Thabiso Ngwenya - Full-Stack &amp; Mobile Software Engineer</title>
-  <desc id="heroDesc">Full-Stack Web, React Native Mobile, 3D WebGL, and AI-Powered Systems Engineer based in Bulawayo, Zimbabwe.</desc>
+  <desc id="heroDesc">Neo-Brutalist engineering profile for Maqhawe Thabiso Ngwenya. Full-Stack TypeScript, React Native, Three.js, and AI systems engineer in Bulawayo, Zimbabwe.</desc>
   <style>
-    .bg-grid {
-      stroke: #24283b;
-      stroke-width: 1;
-      opacity: 0.45;
-    }
-    .eyebrow {
-      font: 600 11.5px 'Space Mono', 'Fira Code', Consolas, 'Courier New', monospace;
-      fill: #38bdae;
-      letter-spacing: 1.8px;
-    }
-    .meta-right {
-      font: 500 11px 'Space Mono', 'Fira Code', Consolas, 'Courier New', monospace;
-      fill: #7aa2f7;
+    .mono-tag {
+      font: 700 12px 'Space Mono', 'Courier New', Consolas, monospace;
+      fill: #000000;
       letter-spacing: 1.2px;
     }
-    .name {
-      font: 800 36px 'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, sans-serif;
-      fill: #f8fafc;
-      letter-spacing: -0.6px;
+    .mono-ticker {
+      font: 700 11.5px 'Space Mono', 'Courier New', Consolas, monospace;
+      fill: #FFE500;
+      letter-spacing: 1.5px;
     }
-    .subtitle {
-      font: 500 16px 'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, sans-serif;
-      fill: #a9b1d6;
+    .display-title {
+      font: 900 44px 'Space Grotesk', 'Arial Black', Impact, system-ui, sans-serif;
+      fill: #000000;
+      letter-spacing: -1.2px;
     }
-    .pill-bg {
-      fill: #24283b;
-      stroke: #3b4261;
-      stroke-width: 1;
+    .body-copy {
+      font: 600 15px 'Space Grotesk', 'Segoe UI', -apple-system, sans-serif;
+      fill: #111111;
     }
-    .pill-text {
-      font: 600 11.5px 'Space Mono', 'Fira Code', Consolas, 'Courier New', monospace;
-      fill: #c0caf5;
-      letter-spacing: 0.4px;
+    .stat-num {
+      font: 900 30px 'Space Grotesk', 'Arial Black', sans-serif;
+      fill: #000000;
+      letter-spacing: -1px;
     }
-    .pill-accent {
-      fill: #70a5fd;
-    }
-    .status-dot {
-      fill: #38bdae;
-      animation: pulseGlow 2.4s ease-in-out infinite;
-    }
-    .status-ring {
-      stroke: #38bdae;
-      stroke-width: 1.5;
-      fill: none;
-      opacity: 0.4;
-      transform-box: fill-box;
-      transform-origin: center;
-      animation: ringExpand 2.4s ease-out infinite;
-    }
-    @keyframes pulseGlow {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.55; }
-    }
-    @keyframes ringExpand {
-      0% { transform: scale(0.8); opacity: 0.7; }
-      100% { transform: scale(2.1); opacity: 0; }
-    }
-    @media (prefers-reduced-motion: reduce) {
-      .status-dot, .status-ring {
-        animation: none;
-      }
+    .stat-label {
+      font: 700 11px 'Space Mono', 'Courier New', monospace;
+      fill: #222222;
+      letter-spacing: 0.8px;
     }
   </style>
 
-  <defs>
-    <linearGradient id="cardGrad" x1="0" y1="0" x2="960" y2="230" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#16161e" />
-      <stop offset="55%" stop-color="#1a1b27" />
-      <stop offset="100%" stop-color="#1f2335" />
-    </linearGradient>
-    <radialGradient id="accentGlow" cx="85%" cy="20%" r="45%">
-      <stop offset="0%" stop-color="#70a5fd" stop-opacity="0.16" />
-      <stop offset="55%" stop-color="#38bdae" stop-opacity="0.06" />
-      <stop offset="100%" stop-color="#1a1b27" stop-opacity="0" />
-    </radialGradient>
-    <linearGradient id="topBorderGrad" x1="0" y1="0" x2="960" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#38bdae" />
-      <stop offset="50%" stop-color="#70a5fd" />
-      <stop offset="100%" stop-color="#bf91f3" />
-    </linearGradient>
-  </defs>
+  <!-- Outer Canvas (#F5F0E8 warm cream) -->
+  <rect x="0" y="0" width="960" height="308" fill="#F5F0E8" />
 
-  <!-- Outer Surface -->
-  <rect x="0.5" y="0.5" width="959" height="229" rx="10" fill="url(#cardGrad)" stroke="#292e42" stroke-width="1" />
-  <rect x="0.5" y="0.5" width="959" height="229" rx="10" fill="url(#accentGlow)" />
+  <!-- Structural Grid Hairlines on Cream Canvas -->
+  <line x1="0" y1="40" x2="960" y2="40" stroke="#E2DBD0" stroke-width="1" />
+  <line x1="0" y1="268" x2="960" y2="268" stroke="#E2DBD0" stroke-width="1" />
 
-  <!-- Architectural Grid Lines -->
-  <line x1="0" y1="52" x2="960" y2="52" class="bg-grid" />
-  <line x1="0" y1="168" x2="960" y2="168" class="bg-grid" />
-  <line x1="680" y1="0" x2="680" y2="230" class="bg-grid" />
-  <line x1="820" y1="0" x2="820" y2="230" class="bg-grid" />
+  <!-- Hard Offset Shadow (7px, 7px, #000000) -->
+  <rect x="21" y="21" width="925" height="273" fill="#000000" />
 
-  <!-- Top Accent Bar -->
-  <rect x="1" y="1" width="958" height="3" rx="1.5" fill="url(#topBorderGrad)" />
+  <!-- Main Brutalist Frame (#FFFFFF surface, 3px #000000 border, 0px radius) -->
+  <rect x="14" y="14" width="925" height="273" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
 
-  <!-- Top Telemetry Bar -->
-  <g transform="translate(36, 31)">
-    <circle cx="6" cy="-4" r="4.5" class="status-dot" />
-    <circle cx="6" cy="-4" r="4.5" class="status-ring" />
-    <text x="20" y="0" class="eyebrow">FULL-STACK WEB • REACT NATIVE MOBILE • AI SYSTEMS</text>
-  </g>
-  <text x="924" y="31" text-anchor="end" class="meta-right">BULAWAYO, ZW // GMT+2</text>
+  <!-- Top Brutalist Status Bar (#FFE500 fill, 3px bottom border) -->
+  <rect x="14" y="14" width="925" height="38" fill="#FFE500" stroke="#000000" stroke-width="3" />
+  <rect x="28" y="26" width="14" height="14" fill="#00C853" stroke="#000000" stroke-width="2.5" />
+  <text x="52" y="37" class="mono-tag">SYS.STATUS: ACTIVE // FULL-STACK &amp; MOBILE ENGINEER</text>
+  <line x1="650" y1="14" x2="650" y2="52" stroke="#000000" stroke-width="3" />
+  <text x="668" y="37" class="mono-tag">LOC: BULAWAYO, ZW [GMT+2]</text>
 
-  <!-- Main Headline & Copy -->
-  <g transform="translate(36, 102)">
-    <text x="0" y="0" class="name">Maqhawe Thabiso Ngwenya</text>
-    <text x="0" y="34" class="subtitle">Engineering high-craft web applications, offline-first mobile products, and interactive 3D interfaces.</text>
-  </g>
+  <!-- Vertical Split Between Left Hero & Right Telemetry Matrix -->
+  <line x1="650" y1="52" x2="650" y2="249" stroke="#000000" stroke-width="3" />
 
-  <!-- Bottom Architecture Pills -->
-  <g transform="translate(36, 184)">
-    <!-- Pill 1 -->
-    <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="196" height="28" rx="14" class="pill-bg" />
-      <circle cx="15" cy="14" r="3.5" fill="#3178c6" />
-      <text x="26" y="18" class="pill-text">TypeScript &amp; React.js</text>
-    </g>
-    <!-- Pill 2 -->
-    <g transform="translate(208, 0)">
-      <rect x="0" y="0" width="192" height="28" rx="14" class="pill-bg" />
-      <circle cx="15" cy="14" r="3.5" fill="#38bdae" />
-      <text x="26" y="18" class="pill-text">Expo &amp; React Native</text>
-    </g>
-    <!-- Pill 3 -->
-    <g transform="translate(412, 0)">
-      <rect x="0" y="0" width="196" height="28" rx="14" class="pill-bg" />
-      <circle cx="15" cy="14" r="3.5" fill="#bf91f3" />
-      <text x="26" y="18" class="pill-text">Node.js • SQL • AI</text>
-    </g>
-    <!-- Pill 4 -->
-    <g transform="translate(620, 0)">
-      <rect x="0" y="0" width="184" height="28" rx="14" class="pill-bg" />
-      <circle cx="15" cy="14" r="3.5" fill="#f1e05a" />
-      <text x="26" y="18" class="pill-text">Three.js &amp; GSAP 3D</text>
+  <!-- LEFT COLUMN: Name, Marker Highlights, Thesis -->
+  <g transform="translate(38, 76)">
+    <!-- Greeting Stamp -->
+    <rect x="4" y="4" width="246" height="28" fill="#000000" />
+    <rect x="0" y="0" width="246" height="28" fill="#62D8F9" stroke="#000000" stroke-width="2.5" />
+    <text x="12" y="19" class="mono-tag">PORTFOLIO // MAQHAWE.VERCEL.APP</text>
+
+    <!-- Giant Display Name + Brutal Yellow Underline Block -->
+    <rect x="0" y="74" width="575" height="14" fill="#FFE500" />
+    <text x="0" y="78" class="display-title">MAQHAWE NGWENYA</text>
+
+    <!-- Left-Bordered Thesis Block -->
+    <rect x="0" y="104" width="6" height="54" fill="#FF3C2F" stroke="#000000" stroke-width="2" />
+    <text x="18" y="123" class="body-copy">Building full-stack TypeScript web platforms, offline-first</text>
+    <g transform="translate(18, 132)">
+      <rect x="0" y="2" width="166" height="22" fill="#A6ECD3" stroke="#000000" stroke-width="2" />
+      <text x="6" y="18" class="body-copy" font-weight="700">React Native apps</text>
+      <text x="174" y="18" class="body-copy">, and interactive</text>
+      <rect x="298" y="2" width="168" height="22" fill="#FF689B" stroke="#000000" stroke-width="2" />
+      <text x="304" y="18" class="body-copy" font-weight="700">3D WebGL systems</text>
+      <text x="470" y="18" class="body-copy">.</text>
     </g>
   </g>
+
+  <!-- RIGHT COLUMN: 2x2 Brutalist Telemetry Grid -->
+  <g transform="translate(650, 52)">
+    <!-- Cell 1 (Top-Left): Public Repos -->
+    <rect x="0" y="0" width="144" height="98.5" fill="#F5F0E8" stroke="#000000" stroke-width="3" />
+    <rect x="14" y="14" width="58" height="20" fill="#FFE500" stroke="#000000" stroke-width="2" />
+    <text x="20" y="28" class="mono-tag">01</text>
+    <text x="14" y="64" class="stat-num">99+</text>
+    <text x="14" y="84" class="stat-label">PUBLIC REPOS</text>
+
+    <!-- Cell 2 (Top-Right): Annual Commits -->
+    <rect x="144" y="0" width="145" height="98.5" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <rect x="158" y="14" width="58" height="20" fill="#62D8F9" stroke="#000000" stroke-width="2" />
+    <text x="164" y="28" class="mono-tag">02</text>
+    <text x="158" y="64" class="stat-num">482</text>
+    <text x="158" y="84" class="stat-label">COMMITS (1Y)</text>
+
+    <!-- Cell 3 (Bottom-Left): Primary Stack -->
+    <rect x="0" y="98.5" width="144" height="98.5" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <rect x="14" y="112.5" width="58" height="20" fill="#FF689B" stroke="#000000" stroke-width="2" />
+    <text x="20" y="126.5" class="mono-tag">03</text>
+    <text x="14" y="162.5" class="stat-num">TS/RN</text>
+    <text x="14" y="182.5" class="stat-label">CORE ENGINE</text>
+
+    <!-- Cell 4 (Bottom-Right): GitHub Rank -->
+    <rect x="144" y="98.5" width="145" height="98.5" fill="#A6ECD3" stroke="#000000" stroke-width="3" />
+    <rect x="158" y="112.5" width="58" height="20" fill="#FFFFFF" stroke="#000000" stroke-width="2" />
+    <text x="164" y="126.5" class="mono-tag">04</text>
+    <text x="158" y="162.5" class="stat-num">A+</text>
+    <text x="158" y="182.5" class="stat-label">GITHUB RANK</text>
+  </g>
+
+  <!-- Bottom Brutalist Marquee Strip (#000000 bar) -->
+  <rect x="14" y="249" width="925" height="38" fill="#000000" stroke="#000000" stroke-width="3" />
+  <text x="32" y="273" class="mono-ticker">TYPESCRIPT // REACT.JS // REACT NATIVE // EXPO // NEXT.JS // THREE.JS // NODE.JS // POSTGRESQL // SQLITE</text>
 </svg>
