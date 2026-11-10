@@ -4,30 +4,32 @@ on:
   schedule:
     # Runs every 6 hours
     - cron: '0 */6 * * *'
-  workflow_dispatch: # Allows manual run
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        
-      - name: Update README with latest follower/following counts
-        run: |
-          FOLLOWERS=$(curl -s "https://api.github.com/users/Thabisomaqhawengwenya" | jq '.followers')
-          FOLLOWING=$(curl -s "https://api.github.com/users/Thabisomaqhawengwenya" | jq '.following')
-          
-          # Update the shields.io badges - they auto-refresh from GitHub API
-          echo "Followers: $FOLLOWERS, Following: $FOLLOWING"
-          
-      - name: Commit and push if changed
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Regenerate live SVG analytics cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: Thabisomaqhawengwenya
+        run: node .github/scripts/update-stats.mjs
+
+      - name: Commit and push if stats changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update stats [skip ci]"
-          git push
+          git add github-stats.svg top-languages.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update live GitHub analytics SVGs [skip ci]" && git push)
