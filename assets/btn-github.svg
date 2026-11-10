@@ -1,13 +1,13 @@
-<svg width="304" height="56" viewBox="0 0 304 56" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GITHUB PROFILE - @THABISOMAQHAWENGWENYA">
+<svg width="304" height="56" viewBox="0 0 304 56" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GITHUB PROFILE â€” @THABISOMAQHAWENGWENYA">
   <style>
-    .btn-main { font: 800 13.5px 'Space Grotesk', 'Arial Black', sans-serif; fill: #000000; letter-spacing: 0.6px; }
-    .btn-sub  { font: 700 10.5px 'Space Mono', 'Courier New', monospace; fill: #111111; }
+    .btn-main { font: 800 13px 'Space Grotesk', 'Arial Black', sans-serif; fill: #000000; letter-spacing: 0.5px; }
+    .btn-sub  { font: 700 10px 'Space Mono', 'Courier New', monospace; fill: #111111; }
   </style>
   <rect x="0" y="0" width="304" height="56" fill="#F5F0E8" />
   <rect x="8" y="8" width="294" height="46" fill="#000000" />
-  <rect x="3" y="3" width="294" height="46" fill="#FF689B" stroke="#000000" stroke-width="3" />
-  <text x="18" y="24" class="btn-main">GITHUB PROFILE</text>
-  <text x="18" y="40" class="btn-sub">@THABISOMAQHAWENGWENYA</text>
+  <rect x="3" y="3" width="294" height="46" fill="#A6ECD3" stroke="#000000" stroke-width="3" />
+  <text x="16" y="24" class="btn-main">GITHUB PROFILE</text>
+  <text x="16" y="40" class="btn-sub">@THABISOMAQHAWENGWENYA</text>
   <rect x="260" y="14" width="24" height="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
-  <text x="267" y="31" class="btn-main">↗</text>
+  <text x="267" y="31" class="btn-main">â†-</text>
 </svg>

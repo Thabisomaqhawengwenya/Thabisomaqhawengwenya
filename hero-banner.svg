@@ -1,117 +1,114 @@
-<svg width="960" height="308" viewBox="0 0 960 308" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle heroDesc">
-  <title id="heroTitle">Maqhawe Thabiso Ngwenya - Full-Stack &amp; Mobile Software Engineer</title>
-  <desc id="heroDesc">Neo-Brutalist engineering profile for Maqhawe Thabiso Ngwenya. Full-Stack TypeScript, React Native, Three.js, and AI systems engineer in Bulawayo, Zimbabwe.</desc>
+<svg width="960" height="316" viewBox="0 0 960 316" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Maqhawe Thabiso Ngwenya â€” Front-end Developer</title>
+  <desc id="heroDesc">Front-end Developer based in Zimbabwe building responsive web interfaces, interactive front-end applications, and practical digital products.</desc>
   <style>
-    .mono-tag {
-      font: 700 12px 'Space Mono', 'Courier New', Consolas, monospace;
-      fill: #000000;
-      letter-spacing: 1.2px;
-    }
-    .mono-ticker {
+    .eyebrow {
       font: 700 11.5px 'Space Mono', 'Courier New', Consolas, monospace;
-      fill: #FFE500;
-      letter-spacing: 1.5px;
+      fill: #000000;
+      letter-spacing: 1.1px;
     }
-    .display-title {
+    .hero-name {
       font: 900 44px 'Space Grotesk', 'Arial Black', Impact, system-ui, sans-serif;
       fill: #000000;
-      letter-spacing: -1.2px;
+      letter-spacing: -1.3px;
     }
     .body-copy {
-      font: 600 15px 'Space Grotesk', 'Segoe UI', -apple-system, sans-serif;
-      fill: #111111;
-    }
-    .stat-num {
-      font: 900 30px 'Space Grotesk', 'Arial Black', sans-serif;
-      fill: #000000;
-      letter-spacing: -1px;
-    }
-    .stat-label {
-      font: 700 11px 'Space Mono', 'Courier New', monospace;
+      font: 500 14.5px 'Space Grotesk', 'Segoe UI', -apple-system, sans-serif;
       fill: #222222;
-      letter-spacing: 0.8px;
+    }
+    .body-bold {
+      font: 700 14.5px 'Space Grotesk', 'Segoe UI', -apple-system, sans-serif;
+      fill: #000000;
+    }
+    .card-hdr {
+      font: 700 10.5px 'Space Mono', 'Courier New', Consolas, monospace;
+      fill: #000000;
+      letter-spacing: 1px;
+    }
+    .focus-title {
+      font: 800 14px 'Space Grotesk', 'Segoe UI', sans-serif;
+      fill: #000000;
+    }
+    .focus-sub {
+      font: 600 11.5px 'Space Mono', 'Courier New', Consolas, monospace;
+      fill: #222222;
+    }
+    .footer-bar-txt {
+      font: 700 11px 'Space Mono', 'Courier New', Consolas, monospace;
+      fill: #FFFFFF;
+      letter-spacing: 1px;
+    }
+    .footer-bar-accent {
+      font: 700 11px 'Space Mono', 'Courier New', Consolas, monospace;
+      fill: #FFE500;
+      letter-spacing: 1px;
     }
   </style>
 
-  <!-- Outer Canvas (#F5F0E8 warm cream) -->
-  <rect x="0" y="0" width="960" height="308" fill="#F5F0E8" />
+  <!-- Warm Cream Backdrop (#F5F0E8 from theme.ts) -->
+  <rect x="0" y="0" width="960" height="316" fill="#F5F0E8" />
 
-  <!-- Structural Grid Hairlines on Cream Canvas -->
-  <line x1="0" y1="40" x2="960" y2="40" stroke="#E2DBD0" stroke-width="1" />
-  <line x1="0" y1="268" x2="960" y2="268" stroke="#E2DBD0" stroke-width="1" />
+  <!-- Hard Offset Shadow (7px 7px 0px #000000) -->
+  <rect x="21" y="21" width="925" height="281" fill="#000000" />
 
-  <!-- Hard Offset Shadow (7px, 7px, #000000) -->
-  <rect x="21" y="21" width="925" height="273" fill="#000000" />
+  <!-- Outer Frame (#FFFFFF surface, 3px solid #000000) -->
+  <rect x="14" y="14" width="925" height="281" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
 
-  <!-- Main Brutalist Frame (#FFFFFF surface, 3px #000000 border, 0px radius) -->
-  <rect x="14" y="14" width="925" height="273" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+  <!-- Top Identity Strip -->
+  <rect x="14" y="14" width="925" height="36" fill="#EDE8DF" stroke="#000000" stroke-width="3" />
+  <rect x="28" y="25" width="12" height="12" fill="#FFE500" stroke="#000000" stroke-width="2" />
+  <text x="48" y="36" class="eyebrow">// DEVELOPER PROFILE &amp; WORK ARCHIVE</text>
+  <line x1="628" y1="14" x2="628" y2="50" stroke="#000000" stroke-width="3" />
+  <text x="646" y="36" class="eyebrow">LOCATION: ZIMBABWE</text>
 
-  <!-- Top Brutalist Status Bar (#FFE500 fill, 3px bottom border) -->
-  <rect x="14" y="14" width="925" height="38" fill="#FFE500" stroke="#000000" stroke-width="3" />
-  <rect x="28" y="26" width="14" height="14" fill="#00C853" stroke="#000000" stroke-width="2.5" />
-  <text x="52" y="37" class="mono-tag">SYS.STATUS: ACTIVE // FULL-STACK &amp; MOBILE ENGINEER</text>
-  <line x1="650" y1="14" x2="650" y2="52" stroke="#000000" stroke-width="3" />
-  <text x="668" y="37" class="mono-tag">LOC: BULAWAYO, ZW [GMT+2]</text>
+  <!-- Vertical Structural Divider -->
+  <line x1="628" y1="50" x2="628" y2="257" stroke="#000000" stroke-width="3" />
 
-  <!-- Vertical Split Between Left Hero & Right Telemetry Matrix -->
-  <line x1="650" y1="52" x2="650" y2="249" stroke="#000000" stroke-width="3" />
+  <!-- LEFT COLUMN: Portfolio Hero Adaptation -->
+  <g transform="translate(38, 68)">
+    <!-- Greeting Badge (Matches Hero/index.tsx Greeting) -->
+    <rect x="3" y="3" width="232" height="28" fill="#000000" />
+    <rect x="0" y="0" width="232" height="28" fill="#FFE500" stroke="#000000" stroke-width="2.5" />
+    <text x="12" y="18.5" class="eyebrow">FRONT-END DEVELOPER</text>
 
-  <!-- LEFT COLUMN: Name, Marker Highlights, Thesis -->
-  <g transform="translate(38, 76)">
-    <!-- Greeting Stamp -->
-    <rect x="4" y="4" width="246" height="28" fill="#000000" />
-    <rect x="0" y="0" width="246" height="28" fill="#62D8F9" stroke="#000000" stroke-width="2.5" />
-    <text x="12" y="19" class="mono-tag">PORTFOLIO // MAQHAWE.VERCEL.APP</text>
+    <!-- Display Name with #FFE500 Underline Accent -->
+    <rect x="0" y="72" width="542" height="12" fill="#FFE500" />
+    <text x="0" y="75" class="hero-name">Maqhawe Ngwenya.</text>
 
-    <!-- Giant Display Name + Brutal Yellow Underline Block -->
-    <rect x="0" y="74" width="575" height="14" fill="#FFE500" />
-    <text x="0" y="78" class="display-title">MAQHAWE NGWENYA</text>
-
-    <!-- Left-Bordered Thesis Block -->
-    <rect x="0" y="104" width="6" height="54" fill="#FF3C2F" stroke="#000000" stroke-width="2" />
-    <text x="18" y="123" class="body-copy">Building full-stack TypeScript web platforms, offline-first</text>
-    <g transform="translate(18, 132)">
-      <rect x="0" y="2" width="166" height="22" fill="#A6ECD3" stroke="#000000" stroke-width="2" />
-      <text x="6" y="18" class="body-copy" font-weight="700">React Native apps</text>
-      <text x="174" y="18" class="body-copy">, and interactive</text>
-      <rect x="298" y="2" width="168" height="22" fill="#FF689B" stroke="#000000" stroke-width="2" />
-      <text x="304" y="18" class="body-copy" font-weight="700">3D WebGL systems</text>
-      <text x="470" y="18" class="body-copy">.</text>
-    </g>
+    <!-- Left-Bordered Introduction (Matches HeroSubtitle border-left: 4px solid #FFE500) -->
+    <rect x="0" y="96" width="5" height="72" fill="#FFE500" stroke="#000000" stroke-width="1.5" />
+    <text x="18" y="113" class="body-copy">I design and build responsive web interfaces and practical software</text>
+    <text x="18" y="136" class="body-copy">with <tspan class="body-bold">React, JavaScript, TypeScript, and modern CSS</tspan>, paired with</text>
+    <text x="18" y="159" class="body-copy">clean UI/UX architecture, Node.js APIs, and mobile experiments.</text>
   </g>
 
-  <!-- RIGHT COLUMN: 2x2 Brutalist Telemetry Grid -->
-  <g transform="translate(650, 52)">
-    <!-- Cell 1 (Top-Left): Public Repos -->
-    <rect x="0" y="0" width="144" height="98.5" fill="#F5F0E8" stroke="#000000" stroke-width="3" />
-    <rect x="14" y="14" width="58" height="20" fill="#FFE500" stroke="#000000" stroke-width="2" />
-    <text x="20" y="28" class="mono-tag">01</text>
-    <text x="14" y="64" class="stat-num">99+</text>
-    <text x="14" y="84" class="stat-label">PUBLIC REPOS</text>
+  <!-- RIGHT COLUMN: Focus & Approach Matrix -->
+  <g transform="translate(628, 50)">
+    <!-- Row 1: Interface Engineering -->
+    <rect x="0" y="0" width="311" height="69" fill="#F5F0E8" stroke="#000000" stroke-width="3" />
+    <rect x="16" y="14" width="66" height="20" fill="#FFDC26" stroke="#000000" stroke-width="2" />
+    <text x="49" y="28" text-anchor="middle" class="card-hdr">FOCUS 01</text>
+    <text x="94" y="29" class="focus-title">Front-End &amp; UI/UX Craft</text>
+    <text x="16" y="52" class="focus-sub">Component systems, motion &amp; layouts</text>
 
-    <!-- Cell 2 (Top-Right): Annual Commits -->
-    <rect x="144" y="0" width="145" height="98.5" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
-    <rect x="158" y="14" width="58" height="20" fill="#62D8F9" stroke="#000000" stroke-width="2" />
-    <text x="164" y="28" class="mono-tag">02</text>
-    <text x="158" y="64" class="stat-num">482</text>
-    <text x="158" y="84" class="stat-label">COMMITS (1Y)</text>
+    <!-- Row 2: Web & Mobile Applications -->
+    <rect x="0" y="69" width="311" height="69" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <rect x="16" y="83" width="66" height="20" fill="#62D8F9" stroke="#000000" stroke-width="2" />
+    <text x="49" y="97" text-anchor="middle" class="card-hdr">FOCUS 02</text>
+    <text x="94" y="98" class="focus-title">Web &amp; Mobile Applications</text>
+    <text x="16" y="121" class="focus-sub">React, Vite, Expo &amp; local-first tools</text>
 
-    <!-- Cell 3 (Bottom-Left): Primary Stack -->
-    <rect x="0" y="98.5" width="144" height="98.5" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
-    <rect x="14" y="112.5" width="58" height="20" fill="#FF689B" stroke="#000000" stroke-width="2" />
-    <text x="20" y="126.5" class="mono-tag">03</text>
-    <text x="14" y="162.5" class="stat-num">TS/RN</text>
-    <text x="14" y="182.5" class="stat-label">CORE ENGINE</text>
-
-    <!-- Cell 4 (Bottom-Right): GitHub Rank -->
-    <rect x="144" y="98.5" width="145" height="98.5" fill="#A6ECD3" stroke="#000000" stroke-width="3" />
-    <rect x="158" y="112.5" width="58" height="20" fill="#FFFFFF" stroke="#000000" stroke-width="2" />
-    <text x="164" y="126.5" class="mono-tag">04</text>
-    <text x="158" y="162.5" class="stat-num">A+</text>
-    <text x="158" y="182.5" class="stat-label">GITHUB RANK</text>
+    <!-- Row 3: Practical Problem Solving -->
+    <rect x="0" y="138" width="311" height="69" fill="#F5F0E8" stroke="#000000" stroke-width="3" />
+    <rect x="16" y="152" width="66" height="20" fill="#A6ECD3" stroke="#000000" stroke-width="2" />
+    <text x="49" y="166" text-anchor="middle" class="card-hdr">FOCUS 03</text>
+    <text x="94" y="167" class="focus-title">Practical Problem Solving</text>
+    <text x="16" y="190" class="focus-sub">REST APIs, SQL schemas &amp; real workflows</text>
   </g>
 
-  <!-- Bottom Brutalist Marquee Strip (#000000 bar) -->
-  <rect x="14" y="249" width="925" height="38" fill="#000000" stroke="#000000" stroke-width="3" />
-  <text x="32" y="273" class="mono-ticker">TYPESCRIPT // REACT.JS // REACT NATIVE // EXPO // NEXT.JS // THREE.JS // NODE.JS // POSTGRESQL // SQLITE</text>
+  <!-- Bottom Portfolio & Status Strip -->
+  <rect x="14" y="257" width="925" height="38" fill="#000000" stroke="#000000" stroke-width="3" />
+  <circle cx="34" cy="276" r="5" fill="#00C853" />
+  <text x="48" y="280" class="footer-bar-txt">OPEN TO WORK &amp; COLLABORATIONS</text>
+  <text x="918" y="280" text-anchor="end" class="footer-bar-accent">PORTFOLIO: MAQHAWE-PORTFOLIO.VERCEL.APP â†-</text>
 </svg>

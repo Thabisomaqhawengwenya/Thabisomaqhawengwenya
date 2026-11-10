@@ -1,81 +1,198 @@
-<svg width="960" height="264" viewBox="0 0 960 264" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Engineering Stack &amp; Tooling Architecture">
+<svg width="960" height="328" viewBox="0 0 960 328" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Technology Stack organized by Front-end, Languages, Back-end, Databases, Design Tools, and Workflow">
   <style>
-    .col-hdr { font: 900 14px 'Space Grotesk', 'Arial Black', sans-serif; fill: #000000; letter-spacing: 0.4px; }
-    .col-idx { font: 700 11.5px 'Space Mono', 'Courier New', monospace; fill: #000000; }
-    .tag-txt { font: 700 11.5px 'Space Mono', 'Courier New', monospace; fill: #000000; }
-    .note-txt { font: 600 12.5px 'Space Grotesk', 'Segoe UI', sans-serif; fill: #111111; }
+    .group-label {
+      font: 700 10.5px 'Space Mono', 'Courier New', Consolas, monospace;
+      fill: #000000;
+      letter-spacing: 0.6px;
+    }
+    .skill-pill {
+      font: 700 12px 'Space Grotesk', 'Segoe UI', -apple-system, sans-serif;
+      fill: #000000;
+    }
   </style>
 
   <!-- Cream Canvas -->
-  <rect x="0" y="0" width="960" height="264" fill="#F5F0E8" />
+  <rect x="0" y="0" width="960" height="328" fill="#F5F0E8" />
 
-  <!-- Hard Offset Shadow -->
-  <rect x="20" y="20" width="926" height="232" fill="#000000" />
+  <!-- Hard Offset Shadow (7px 7px 0px #000000) -->
+  <rect x="20" y="20" width="926" height="296" fill="#000000" />
 
-  <!-- Outer Frame -->
-  <rect x="13" y="13" width="926" height="232" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
-
-  <!-- Column Dividers -->
-  <line x1="321" y1="13" x2="321" y2="245" stroke="#000000" stroke-width="3" />
-  <line x1="630" y1="13" x2="630" y2="245" stroke="#000000" stroke-width="3" />
-
-  <!-- Column 1 Header -->
-  <rect x="13" y="13" width="308" height="42" fill="#FFE500" stroke="#000000" stroke-width="3" />
-  <text x="29" y="39" class="col-hdr">01 // CORE LANGUAGES &amp; RUNTIMES</text>
-
-  <!-- Column 2 Header -->
-  <rect x="321" y="13" width="309" height="42" fill="#62D8F9" stroke="#000000" stroke-width="3" />
-  <text x="337" y="39" class="col-hdr">02 // FRONTEND, MOBILE &amp; 3D</text>
-
-  <!-- Column 3 Header -->
-  <rect x="630" y="13" width="309" height="42" fill="#FF689B" stroke="#000000" stroke-width="3" />
-  <text x="646" y="39" class="col-hdr">03 // DATA, BACKEND &amp; AI OPS</text>
-
-  <!-- Column 1 Chips -->
-  <g transform="translate(29, 72)">
-    <rect x="3" y="3" width="124" height="30" fill="#000000" /><rect x="0" y="0" width="124" height="30" fill="#FFE500" stroke="#000000" stroke-width="2.5" /><text x="62" y="20" text-anchor="middle" class="tag-txt">TYPESCRIPT</text>
-    <rect x="141" y="3" width="124" height="30" fill="#000000" /><rect x="138" y="0" width="124" height="30" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" /><text x="200" y="20" text-anchor="middle" class="tag-txt">JAVASCRIPT</text>
-
-    <rect x="3" y="47" width="124" height="30" fill="#000000" /><rect x="0" y="44" width="124" height="30" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" /><text x="62" y="64" text-anchor="middle" class="tag-txt">NODE.JS</text>
-    <rect x="141" y="47" width="124" height="30" fill="#000000" /><rect x="138" y="44" width="124" height="30" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" /><text x="200" y="64" text-anchor="middle" class="tag-txt">PYTHON</text>
-
-    <rect x="3" y="91" width="124" height="30" fill="#000000" /><rect x="0" y="88" width="124" height="30" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" /><text x="62" y="108" text-anchor="middle" class="tag-txt">SQL / PGSQL</text>
-    <rect x="141" y="91" width="124" height="30" fill="#000000" /><rect x="138" y="88" width="124" height="30" fill="#A6ECD3" stroke="#000000" stroke-width="2.5" /><text x="200" y="108" text-anchor="middle" class="tag-txt">GLSL SHADERS</text>
-
-    <line x1="0" y1="136" x2="274" y2="136" stroke="#000000" stroke-width="2" stroke-dasharray="4 4" />
-    <text x="0" y="158" class="note-txt">Strict static typing, deterministic</text>
-    <text x="0" y="176" class="note-txt">arithmetic &amp; modular monorepos.</text>
+  <!-- 3x2 Neo-Brutalist Skills Grid -->
+  
+  <g transform="translate(13.00, 13)">
+    <rect x="0" y="0" width="308.67" height="148" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <rect x="18" y="16" width="217.8" height="24" fill="#FFE500" stroke="#000000" stroke-width="2" />
+    <text x="27" y="32" class="group-label">01 // FRONT-END DEVELOPMENT</text>
+    
+      <g transform="translate(18.0, 56)">
+        <rect x="2" y="2" width="80.8" height="28" fill="#000000" />
+        <rect x="0" y="0" width="80.8" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="40.4" y="18.5" text-anchor="middle" class="skill-pill">React.js</text>
+      </g>
+      <g transform="translate(106.8, 56)">
+        <rect x="2" y="2" width="58.0" height="28" fill="#000000" />
+        <rect x="0" y="0" width="58.0" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="29.0" y="18.5" text-anchor="middle" class="skill-pill">HTML5</text>
+      </g>
+      <g transform="translate(172.8, 56)">
+        <rect x="2" y="2" width="50.4" height="28" fill="#000000" />
+        <rect x="0" y="0" width="50.4" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="25.2" y="18.5" text-anchor="middle" class="skill-pill">CSS3</text>
+      </g>
+      <g transform="translate(18.0, 96)">
+        <rect x="2" y="2" width="149.2" height="28" fill="#000000" />
+        <rect x="0" y="0" width="149.2" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="74.6" y="18.5" text-anchor="middle" class="skill-pill">Styled Components</text>
+      </g>
+      <g transform="translate(175.2, 96)">
+        <rect x="2" y="2" width="50.4" height="28" fill="#000000" />
+        <rect x="0" y="0" width="50.4" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="25.2" y="18.5" text-anchor="middle" class="skill-pill">Vite</text>
+      </g>
+      <g transform="translate(233.6, 96)">
+        <rect x="2" y="2" width="118.8" height="28" fill="#000000" />
+        <rect x="0" y="0" width="118.8" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="59.4" y="18.5" text-anchor="middle" class="skill-pill">Framer Motion</text>
+      </g>
   </g>
-
-  <!-- Column 2 Chips -->
-  <g transform="translate(337, 72)">
-    <rect x="3" y="3" width="124" height="30" fill="#000000" /><rect x="0" y="0" width="124" height="30" fill="#62D8F9" stroke="#000000" stroke-width="2.5" /><text x="62" y="20" text-anchor="middle" class="tag-txt">REACT.JS</text>
-    <rect x="141" y="3" width="124" height="30" fill="#000000" /><rect x="138" y="0" width="124" height="30" fill="#FFE500" stroke="#000000" stroke-width="2.5" /><text x="200" y="20" text-anchor="middle" class="tag-txt">REACT NATIVE</text>
-
-    <rect x="3" y="47" width="124" height="30" fill="#000000" /><rect x="0" y="44" width="124" height="30" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" /><text x="62" y="64" text-anchor="middle" class="tag-txt">EXPO SDK</text>
-    <rect x="141" y="47" width="124" height="30" fill="#000000" /><rect x="138" y="44" width="124" height="30" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" /><text x="200" y="64" text-anchor="middle" class="tag-txt">NEXT.JS</text>
-
-    <rect x="3" y="91" width="124" height="30" fill="#000000" /><rect x="0" y="88" width="124" height="30" fill="#FF689B" stroke="#000000" stroke-width="2.5" /><text x="62" y="108" text-anchor="middle" class="tag-txt">THREE.JS</text>
-    <rect x="141" y="91" width="124" height="30" fill="#000000" /><rect x="138" y="88" width="124" height="30" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" /><text x="200" y="108" text-anchor="middle" class="tag-txt">GSAP / FRAMER</text>
-
-    <line x1="0" y1="136" x2="274" y2="136" stroke="#000000" stroke-width="2" stroke-dasharray="4 4" />
-    <text x="0" y="158" class="note-txt">3D point clouds, scroll timelines,</text>
-    <text x="0" y="176" class="note-txt">and offline-first mobile interfaces.</text>
+  <g transform="translate(321.67, 13)">
+    <rect x="0" y="0" width="308.67" height="148" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <rect x="18" y="16" width="217.8" height="24" fill="#62D8F9" stroke="#000000" stroke-width="2" />
+    <text x="27" y="32" class="group-label">02 // PROGRAMMING LANGUAGES</text>
+    
+      <g transform="translate(18.0, 56)">
+        <rect x="2" y="2" width="149.2" height="28" fill="#000000" />
+        <rect x="0" y="0" width="149.2" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="74.6" y="18.5" text-anchor="middle" class="skill-pill">JavaScript (ES6+)</text>
+      </g>
+      <g transform="translate(175.2, 56)">
+        <rect x="2" y="2" width="96.0" height="28" fill="#000000" />
+        <rect x="0" y="0" width="96.0" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="48.0" y="18.5" text-anchor="middle" class="skill-pill">TypeScript</text>
+      </g>
+      <g transform="translate(18.0, 96)">
+        <rect x="2" y="2" width="65.6" height="28" fill="#000000" />
+        <rect x="0" y="0" width="65.6" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="32.8" y="18.5" text-anchor="middle" class="skill-pill">Python</text>
+      </g>
+      <g transform="translate(91.6, 96)">
+        <rect x="2" y="2" width="42.8" height="28" fill="#000000" />
+        <rect x="0" y="0" width="42.8" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="21.4" y="18.5" text-anchor="middle" class="skill-pill">SQL</text>
+      </g>
   </g>
-
-  <!-- Column 3 Chips -->
-  <g transform="translate(646, 72)">
-    <rect x="3" y="3" width="124" height="30" fill="#000000" /><rect x="0" y="0" width="124" height="30" fill="#A6ECD3" stroke="#000000" stroke-width="2.5" /><text x="62" y="20" text-anchor="middle" class="tag-txt">POSTGRESQL</text>
-    <rect x="141" y="3" width="124" height="30" fill="#000000" /><rect x="138" y="0" width="124" height="30" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" /><text x="200" y="20" text-anchor="middle" class="tag-txt">SQLITE LOCAL</text>
-
-    <rect x="3" y="47" width="124" height="30" fill="#000000" /><rect x="0" y="44" width="124" height="30" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" /><text x="62" y="64" text-anchor="middle" class="tag-txt">PRISMA ORM</text>
-    <rect x="141" y="47" width="124" height="30" fill="#000000" /><rect x="138" y="44" width="124" height="30" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" /><text x="200" y="64" text-anchor="middle" class="tag-txt">SUPABASE / FB</text>
-
-    <rect x="3" y="91" width="124" height="30" fill="#000000" /><rect x="0" y="88" width="124" height="30" fill="#FFE500" stroke="#000000" stroke-width="2.5" /><text x="62" y="108" text-anchor="middle" class="tag-txt">GEMINI AI</text>
-    <rect x="141" y="91" width="124" height="30" fill="#000000" /><rect x="138" y="88" width="124" height="30" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" /><text x="200" y="108" text-anchor="middle" class="tag-txt">VITEST / CI</text>
-
-    <line x1="0" y1="136" x2="274" y2="136" stroke="#000000" stroke-width="2" stroke-dasharray="4 4" />
-    <text x="0" y="158" class="note-txt">Atomic SQL mutations, RBAC auth,</text>
-    <text x="0" y="176" class="note-txt">and grounded LLM RAG pipelines.</text>
+  <g transform="translate(630.34, 13)">
+    <rect x="0" y="0" width="308.67" height="148" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <rect x="18" y="16" width="173.4" height="24" fill="#FF689B" stroke="#000000" stroke-width="2" />
+    <text x="27" y="32" class="group-label">03 // BACK-END &amp; APIS</text>
+    
+      <g transform="translate(18.0, 56)">
+        <rect x="2" y="2" width="73.2" height="28" fill="#000000" />
+        <rect x="0" y="0" width="73.2" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="36.6" y="18.5" text-anchor="middle" class="skill-pill">Node.js</text>
+      </g>
+      <g transform="translate(99.2, 56)">
+        <rect x="2" y="2" width="96.0" height="28" fill="#000000" />
+        <rect x="0" y="0" width="96.0" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="48.0" y="18.5" text-anchor="middle" class="skill-pill">Express.js</text>
+      </g>
+      <g transform="translate(18.0, 96)">
+        <rect x="2" y="2" width="88.4" height="28" fill="#000000" />
+        <rect x="0" y="0" width="88.4" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="44.2" y="18.5" text-anchor="middle" class="skill-pill">REST APIs</text>
+      </g>
+      <g transform="translate(114.4, 96)">
+        <rect x="2" y="2" width="96.0" height="28" fill="#000000" />
+        <rect x="0" y="0" width="96.0" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="48.0" y="18.5" text-anchor="middle" class="skill-pill">Prisma ORM</text>
+      </g>
+  </g>
+  <g transform="translate(13.00, 161)">
+    <rect x="0" y="0" width="308.67" height="148" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <rect x="18" y="16" width="180.8" height="24" fill="#A6ECD3" stroke="#000000" stroke-width="2" />
+    <text x="27" y="32" class="group-label">04 // DATABASES &amp; BaaS</text>
+    
+      <g transform="translate(18.0, 56)">
+        <rect x="2" y="2" width="96.0" height="28" fill="#000000" />
+        <rect x="0" y="0" width="96.0" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="48.0" y="18.5" text-anchor="middle" class="skill-pill">PostgreSQL</text>
+      </g>
+      <g transform="translate(122.0, 56)">
+        <rect x="2" y="2" width="58.0" height="28" fill="#000000" />
+        <rect x="0" y="0" width="58.0" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="29.0" y="18.5" text-anchor="middle" class="skill-pill">MySQL</text>
+      </g>
+      <g transform="translate(188.0, 56)">
+        <rect x="2" y="2" width="65.6" height="28" fill="#000000" />
+        <rect x="0" y="0" width="65.6" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="32.8" y="18.5" text-anchor="middle" class="skill-pill">SQLite</text>
+      </g>
+      <g transform="translate(18.0, 96)">
+        <rect x="2" y="2" width="80.8" height="28" fill="#000000" />
+        <rect x="0" y="0" width="80.8" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="40.4" y="18.5" text-anchor="middle" class="skill-pill">Firebase</text>
+      </g>
+      <g transform="translate(106.8, 96)">
+        <rect x="2" y="2" width="80.8" height="28" fill="#000000" />
+        <rect x="0" y="0" width="80.8" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="40.4" y="18.5" text-anchor="middle" class="skill-pill">Supabase</text>
+      </g>
+  </g>
+  <g transform="translate(321.67, 161)">
+    <rect x="0" y="0" width="308.67" height="148" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <rect x="18" y="16" width="210.4" height="24" fill="#FFE500" stroke="#000000" stroke-width="2" />
+    <text x="27" y="32" class="group-label">05 // UI/UX &amp; DESIGN TOOLS</text>
+    
+      <g transform="translate(18.0, 56)">
+        <rect x="2" y="2" width="58.0" height="28" fill="#000000" />
+        <rect x="0" y="0" width="58.0" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="29.0" y="18.5" text-anchor="middle" class="skill-pill">Figma</text>
+      </g>
+      <g transform="translate(84.0, 56)">
+        <rect x="2" y="2" width="58.0" height="28" fill="#000000" />
+        <rect x="0" y="0" width="58.0" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="29.0" y="18.5" text-anchor="middle" class="skill-pill">Canva</text>
+      </g>
+      <g transform="translate(18.0, 96)">
+        <rect x="2" y="2" width="149.2" height="28" fill="#000000" />
+        <rect x="0" y="0" width="149.2" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="74.6" y="18.5" text-anchor="middle" class="skill-pill">Responsive Design</text>
+      </g>
+      <g transform="translate(175.2, 96)">
+        <rect x="2" y="2" width="156.8" height="28" fill="#000000" />
+        <rect x="0" y="0" width="156.8" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="78.4" y="18.5" text-anchor="middle" class="skill-pill">WCAG Accessibility</text>
+      </g>
+  </g>
+  <g transform="translate(630.34, 161)">
+    <rect x="0" y="0" width="308.67" height="148" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <rect x="18" y="16" width="217.8" height="24" fill="#62D8F9" stroke="#000000" stroke-width="2" />
+    <text x="27" y="32" class="group-label">06 // WORKFLOW &amp; DEPLOYMENT</text>
+    
+      <g transform="translate(18.0, 56)">
+        <rect x="2" y="2" width="42.8" height="28" fill="#000000" />
+        <rect x="0" y="0" width="42.8" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="21.4" y="18.5" text-anchor="middle" class="skill-pill">Git</text>
+      </g>
+      <g transform="translate(68.8, 56)">
+        <rect x="2" y="2" width="65.6" height="28" fill="#000000" />
+        <rect x="0" y="0" width="65.6" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="32.8" y="18.5" text-anchor="middle" class="skill-pill">GitHub</text>
+      </g>
+      <g transform="translate(142.4, 56)">
+        <rect x="2" y="2" width="73.2" height="28" fill="#000000" />
+        <rect x="0" y="0" width="73.2" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="36.6" y="18.5" text-anchor="middle" class="skill-pill">VS Code</text>
+      </g>
+      <g transform="translate(18.0, 96)">
+        <rect x="2" y="2" width="65.6" height="28" fill="#000000" />
+        <rect x="0" y="0" width="65.6" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="32.8" y="18.5" text-anchor="middle" class="skill-pill">Vercel</text>
+      </g>
+      <g transform="translate(91.6, 96)">
+        <rect x="2" y="2" width="126.4" height="28" fill="#000000" />
+        <rect x="0" y="0" width="126.4" height="28" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+        <text x="63.2" y="18.5" text-anchor="middle" class="skill-pill">npm / Vite CLI</text>
+      </g>
   </g>
 </svg>

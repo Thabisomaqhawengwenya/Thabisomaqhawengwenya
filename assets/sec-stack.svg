@@ -1,15 +1,15 @@
-<svg width="960" height="58" viewBox="0 0 960 58" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ENGINEERING STACK &amp; ARCHITECTURE">
+<svg width="960" height="58" viewBox="0 0 960 58" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TECHNOLOGY STACK &amp; TOOLS">
   <style>
     .s-idx { font: 800 13.5px 'Space Mono', 'Courier New', monospace; fill: #000000; }
-    .s-ttl { font: 900 18px 'Space Grotesk', 'Arial Black', sans-serif; fill: #000000; letter-spacing: 0.5px; }
-    .s-rgt { font: 700 11.5px 'Space Mono', 'Courier New', monospace; fill: #000000; letter-spacing: 0.8px; }
+    .s-ttl { font: 900 18px 'Space Grotesk', 'Arial Black', sans-serif; fill: #000000; letter-spacing: 0.4px; }
+    .s-rgt { font: 700 11px 'Space Mono', 'Courier New', monospace; fill: #000000; letter-spacing: 0.6px; }
   </style>
   <rect x="0" y="0" width="960" height="58" fill="#F5F0E8" />
   <rect x="19" y="13" width="926" height="38" fill="#000000" />
   <rect x="13" y="7" width="926" height="38" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
   <rect x="13" y="7" width="54" height="38" fill="#62D8F9" stroke="#000000" stroke-width="3" />
   <text x="40" y="31" text-anchor="middle" class="s-idx">02</text>
-  <text x="84" y="32" class="s-ttl">ENGINEERING STACK &amp; ARCHITECTURE</text>
-  <rect x="748" y="14" width="178" height="24" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
-  <text x="837" y="30" text-anchor="middle" class="s-rgt">FULL-STACK &amp; MOBILE</text>
+  <text x="84" y="32" class="s-ttl">TECHNOLOGY STACK &amp; TOOLS</text>
+  <rect x="728" y="14" width="198" height="24" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+  <text x="827" y="30" text-anchor="middle" class="s-rgt">DEMONSTRATED IN PROJECTS</text>
 </svg>

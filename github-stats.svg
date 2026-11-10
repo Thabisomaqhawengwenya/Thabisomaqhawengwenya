@@ -7,8 +7,8 @@
   role="img"
   aria-labelledby="statsTitle statsDesc"
 >
-  <title id="statsTitle">Maqhawe Thabiso Ngwenya's GitHub Stats, Rank: A+</title>
-  <desc id="statsDesc">Total Stars Earned: 27, Total Commits (last year): 483, Total PRs: 1, Total Issues: 27, Public Repositories: 99</desc>
+  <title id="statsTitle">Maqhawe Thabiso Ngwenya â€” GitHub Activity</title>
+  <desc id="statsDesc">Public Repositories: 99, Commits (last year): 484, Total Stars Earned: 27, Issues: 27, Pull Requests: 1, Followers: 21</desc>
   <style>
     .hdr {
       font: 900 15px 'Space Grotesk', 'Arial Black', sans-serif;
@@ -16,7 +16,7 @@
       letter-spacing: 0.4px;
     }
     .hdr-tag {
-      font: 700 10.5px 'Space Mono', 'Courier New', monospace;
+      font: 700 10px 'Space Mono', 'Courier New', monospace;
       fill: #000000;
     }
     .stat-label {
@@ -27,15 +27,20 @@
       font: 700 12.5px 'Space Mono', 'Courier New', monospace;
       fill: #000000;
     }
-    .rank-big {
-      font: 900 34px 'Space Grotesk', 'Arial Black', sans-serif;
+    .box-num {
+      font: 900 32px 'Space Grotesk', 'Arial Black', sans-serif;
       fill: #000000;
       letter-spacing: -1px;
     }
-    .rank-caption {
-      font: 700 10.5px 'Space Mono', 'Courier New', monospace;
+    .box-caption {
+      font: 700 10px 'Space Mono', 'Courier New', monospace;
       fill: #000000;
-      letter-spacing: 1px;
+      letter-spacing: 0.8px;
+    }
+    .box-top {
+      font: 700 10px 'Space Mono', 'Courier New', monospace;
+      fill: #FFE500;
+      letter-spacing: 0.8px;
     }
   </style>
 
@@ -50,56 +55,56 @@
 
   <!-- Brutalist Header Bar -->
   <rect x="6" y="6" width="445" height="40" fill="#FFE500" stroke="#000000" stroke-width="3" />
-  <text x="22" y="31" class="hdr">01 // GITHUB TELEMETRY LEDGER</text>
-  <rect x="352" y="14" width="84" height="24" fill="#FFFFFF" stroke="#000000" stroke-width="2" />
-  <text x="394" y="30" text-anchor="middle" class="hdr-tag">LIVE SYNC</text>
+  <text x="22" y="31" class="hdr">GITHUB ACTIVITY SUMMARY</text>
+  <rect x="346" y="14" width="90" height="24" fill="#FFFFFF" stroke="#000000" stroke-width="2" />
+  <text x="391" y="30" text-anchor="middle" class="hdr-tag">GITHUB API</text>
 
   <!-- Left Metrics Rows -->
   <g transform="translate(22, 62)">
     <!-- Row 1 -->
     <g transform="translate(0, 0)">
       <rect x="0" y="2" width="12" height="12" fill="#FFE500" stroke="#000000" stroke-width="2" />
-      <text x="20" y="13" class="stat-label">Total Stars Earned</text>
-      <rect x="202" y="-3" width="64" height="22" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
-      <text x="234" y="12" text-anchor="middle" class="stat-val" data-testid="stars">27</text>
+      <text x="20" y="13" class="stat-label">Commits (Last Year)</text>
+      <rect x="202" y="-3" width="64" height="22" fill="#FFE500" stroke="#000000" stroke-width="2" />
+      <text x="234" y="12" text-anchor="middle" class="stat-val" data-testid="commits">484</text>
     </g>
     <!-- Row 2 -->
     <g transform="translate(0, 27)">
       <rect x="0" y="2" width="12" height="12" fill="#62D8F9" stroke="#000000" stroke-width="2" />
-      <text x="20" y="13" class="stat-label">Commits (Last Year)</text>
-      <rect x="202" y="-3" width="64" height="22" fill="#FFE500" stroke="#000000" stroke-width="2" />
-      <text x="234" y="12" text-anchor="middle" class="stat-val" data-testid="commits">483</text>
+      <text x="20" y="13" class="stat-label">Total Stars Earned</text>
+      <rect x="202" y="-3" width="64" height="22" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+      <text x="234" y="12" text-anchor="middle" class="stat-val" data-testid="stars">27</text>
     </g>
     <!-- Row 3 -->
     <g transform="translate(0, 54)">
       <rect x="0" y="2" width="12" height="12" fill="#FF689B" stroke="#000000" stroke-width="2" />
-      <text x="20" y="13" class="stat-label">Pull Requests</text>
+      <text x="20" y="13" class="stat-label">Issues Opened</text>
       <rect x="202" y="-3" width="64" height="22" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
-      <text x="234" y="12" text-anchor="middle" class="stat-val" data-testid="prs">1</text>
+      <text x="234" y="12" text-anchor="middle" class="stat-val" data-testid="issues">27</text>
     </g>
     <!-- Row 4 -->
     <g transform="translate(0, 81)">
       <rect x="0" y="2" width="12" height="12" fill="#A6ECD3" stroke="#000000" stroke-width="2" />
-      <text x="20" y="13" class="stat-label">Issues Tracked</text>
+      <text x="20" y="13" class="stat-label">Pull Requests</text>
       <rect x="202" y="-3" width="64" height="22" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
-      <text x="234" y="12" text-anchor="middle" class="stat-val" data-testid="issues">27</text>
+      <text x="234" y="12" text-anchor="middle" class="stat-val" data-testid="prs">1</text>
     </g>
     <!-- Row 5 -->
     <g transform="translate(0, 108)">
       <rect x="0" y="2" width="12" height="12" fill="#FFE500" stroke="#000000" stroke-width="2" />
-      <text x="20" y="13" class="stat-label">Public Repositories</text>
-      <rect x="202" y="-3" width="64" height="22" fill="#62D8F9" stroke="#000000" stroke-width="2" />
-      <text x="234" y="12" text-anchor="middle" class="stat-val" data-testid="contribs">99</text>
+      <text x="20" y="13" class="stat-label">GitHub Followers</text>
+      <rect x="202" y="-3" width="64" height="22" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+      <text x="234" y="12" text-anchor="middle" class="stat-val" data-testid="followers">21</text>
     </g>
   </g>
 
-  <!-- Right Brutalist Rank Block -->
-  <g transform="translate(318, 66)">
-    <rect x="5" y="5" width="110" height="114" fill="#000000" />
-    <rect x="0" y="0" width="110" height="114" fill="#A6ECD3" stroke="#000000" stroke-width="3" />
-    <rect x="0" y="0" width="110" height="28" fill="#000000" />
-    <text x="55" y="18" text-anchor="middle" class="rank-caption" fill="#FFE500">VERIFIED</text>
-    <text x="55" y="76" text-anchor="middle" class="rank-big" data-testid="level-rank-icon">A+</text>
-    <text x="55" y="102" text-anchor="middle" class="rank-caption">TIER RANK</text>
+  <!-- Right Brutalist Public Repos Block -->
+  <g transform="translate(314, 64)">
+    <rect x="5" y="5" width="116" height="116" fill="#000000" />
+    <rect x="0" y="0" width="116" height="116" fill="#A6ECD3" stroke="#000000" stroke-width="3" />
+    <rect x="0" y="0" width="116" height="28" fill="#000000" />
+    <text x="58" y="18" text-anchor="middle" class="box-top">PUBLIC WORK</text>
+    <text x="58" y="74" text-anchor="middle" class="box-num" data-testid="repos">99</text>
+    <text x="58" y="100" text-anchor="middle" class="box-caption">REPOSITORIES</text>
   </g>
 </svg>

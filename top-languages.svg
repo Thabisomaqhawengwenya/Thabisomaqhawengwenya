@@ -5,7 +5,7 @@
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
   role="img"
-  aria-label="Most Used Languages: TYPESCRIPT 60.0%, JAVASCRIPT 25.0%, PYTHON 10.0%, CSS / GLSL 5.0%"
+  aria-label="Top Languages by Repository Byte Size: TypeScript 52.0%, HTML 26.0%, JavaScript 18.5%, CSS / Other 3.5%"
 >
   <style>
     .hdr {
@@ -14,15 +14,15 @@
       letter-spacing: 0.4px;
     }
     .hdr-tag {
-      font: 700 10.5px 'Space Mono', 'Courier New', monospace;
+      font: 700 10px 'Space Mono', 'Courier New', monospace;
       fill: #000000;
     }
     .lang-name {
-      font: 800 13px 'Space Grotesk', 'Segoe UI', sans-serif;
+      font: 800 12.5px 'Space Grotesk', 'Segoe UI', sans-serif;
       fill: #000000;
     }
     .lang-percent {
-      font: 700 12.5px 'Space Mono', 'Courier New', monospace;
+      font: 700 12px 'Space Mono', 'Courier New', monospace;
       fill: #000000;
     }
   </style>
@@ -38,17 +38,17 @@
 
   <!-- Brutalist Header Bar -->
   <rect x="6" y="6" width="445" height="40" fill="#62D8F9" stroke="#000000" stroke-width="3" />
-  <text x="22" y="31" class="hdr">02 // LANGUAGE DISTRIBUTION</text>
-  <rect x="344" y="14" width="92" height="24" fill="#FFE500" stroke="#000000" stroke-width="2" />
-  <text x="390" y="30" text-anchor="middle" class="hdr-tag">TS PRIMARY</text>
+  <text x="22" y="31" class="hdr">TOP LANGUAGES BY CODE VOLUME</text>
+  <rect x="336" y="14" width="100" height="24" fill="#FFE500" stroke="#000000" stroke-width="2" />
+  <text x="386" y="30" text-anchor="middle" class="hdr-tag">BYTE WEIGHTED</text>
 
   <!-- Segmented Brutalist Bar -->
   <g transform="translate(22, 62)">
     <rect x="3" y="3" width="413" height="22" fill="#000000" />
-    <rect x="0.00" y="0" width="247.8" height="22" fill="#FFE500" stroke="#000000" stroke-width="2.5" />
-    <rect x="247.80" y="0" width="103.25" height="22" fill="#62D8F9" stroke="#000000" stroke-width="2.5" />
-    <rect x="351.05" y="0" width="41.3" height="22" fill="#FF689B" stroke="#000000" stroke-width="2.5" />
-    <rect x="392.35" y="0" width="20.65" height="22" fill="#A6ECD3" stroke="#000000" stroke-width="2.5" />
+    <rect x="0.00" y="0" width="214.76" height="22" fill="#FFE500" stroke="#000000" stroke-width="2.5" />
+    <rect x="214.76" y="0" width="107.38" height="22" fill="#62D8F9" stroke="#000000" stroke-width="2.5" />
+    <rect x="322.14" y="0" width="76.41" height="22" fill="#FF689B" stroke="#000000" stroke-width="2.5" />
+    <rect x="398.55" y="0" width="14.45" height="22" fill="#A6ECD3" stroke="#000000" stroke-width="2.5" />
   </g>
 
   <!-- 2x2 Brutalist Language Blocks -->
@@ -58,30 +58,30 @@
         <rect x="3" y="3" width="198" height="34" fill="#000000" />
         <rect x="0" y="0" width="198" height="34" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" />
         <rect x="0" y="0" width="28" height="34" fill="#FFE500" stroke="#000000" stroke-width="2.5" />
-        <text x="38" y="22" class="lang-name">TYPESCRIPT</text>
-        <text x="188" y="22" text-anchor="end" class="lang-percent">60.0%</text>
+        <text x="38" y="22" class="lang-name">TypeScript</text>
+        <text x="188" y="22" text-anchor="end" class="lang-percent">52.0%</text>
       </g>
       <g transform="translate(0, 44)">
         <rect x="3" y="3" width="198" height="34" fill="#000000" />
         <rect x="0" y="0" width="198" height="34" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" />
         <rect x="0" y="0" width="28" height="34" fill="#FF689B" stroke="#000000" stroke-width="2.5" />
-        <text x="38" y="22" class="lang-name">PYTHON</text>
-        <text x="188" y="22" text-anchor="end" class="lang-percent">10.0%</text>
+        <text x="38" y="22" class="lang-name">JavaScript</text>
+        <text x="188" y="22" text-anchor="end" class="lang-percent">18.5%</text>
       </g>
     
       <g transform="translate(215, 0)">
         <rect x="3" y="3" width="198" height="34" fill="#000000" />
         <rect x="0" y="0" width="198" height="34" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" />
         <rect x="0" y="0" width="28" height="34" fill="#62D8F9" stroke="#000000" stroke-width="2.5" />
-        <text x="38" y="22" class="lang-name">JAVASCRIPT</text>
-        <text x="188" y="22" text-anchor="end" class="lang-percent">25.0%</text>
+        <text x="38" y="22" class="lang-name">HTML</text>
+        <text x="188" y="22" text-anchor="end" class="lang-percent">26.0%</text>
       </g>
       <g transform="translate(215, 44)">
         <rect x="3" y="3" width="198" height="34" fill="#000000" />
         <rect x="0" y="0" width="198" height="34" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" />
         <rect x="0" y="0" width="28" height="34" fill="#A6ECD3" stroke="#000000" stroke-width="2.5" />
-        <text x="38" y="22" class="lang-name">CSS / GLSL</text>
-        <text x="188" y="22" text-anchor="end" class="lang-percent">5.0%</text>
+        <text x="38" y="22" class="lang-name">CSS / Other</text>
+        <text x="188" y="22" text-anchor="end" class="lang-percent">3.5%</text>
       </g>
   </g>
 </svg>

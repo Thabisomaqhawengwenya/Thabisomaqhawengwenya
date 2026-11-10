@@ -1,59 +1,59 @@
-<svg width="467" height="226" viewBox="0 0 467 226" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ARCANE INTERACTIVE">
+<svg width="467" height="232" viewBox="0 0 467 232" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ARCANE INTERACTIVE â€” Front-end motion study inspired by Zentry and Arcane, implementing GSAP polygon clip-path transitions, timed video hero sequences, and interactive audio controls.">
   <style>
     .idx { font: 800 13px 'Space Mono', 'Courier New', monospace; fill: #000000; }
-    .card-title { font: 900 18px 'Space Grotesk', 'Arial Black', sans-serif; fill: #000000; letter-spacing: -0.3px; }
-    .status-pill { font: 700 10px 'Space Mono', 'Courier New', monospace; fill: #000000; letter-spacing: 0.5px; }
+    .card-title { font: 900 17.5px 'Space Grotesk', 'Arial Black', sans-serif; fill: #000000; letter-spacing: -0.3px; }
+    .status-pill { font: 700 9.5px 'Space Mono', 'Courier New', monospace; fill: #000000; letter-spacing: 0.4px; }
     .desc { font: 500 13.5px 'Space Grotesk', 'Segoe UI', -apple-system, sans-serif; fill: #111111; }
-    .chip-text { font: 700 10.5px 'Space Mono', 'Courier New', monospace; fill: #000000; }
+    .chip-text { font: 700 10px 'Space Mono', 'Courier New', monospace; fill: #000000; }
   </style>
 
   <!-- Cream Backdrop -->
-  <rect x="0" y="0" width="467" height="226" fill="#F5F0E8" />
+  <rect x="0" y="0" width="467" height="232" fill="#F5F0E8" />
 
   <!-- Hard Offset Shadow (6px, 6px, #000000) -->
-  <rect x="12" y="12" width="445" height="204" fill="#000000" />
+  <rect x="12" y="12" width="445" height="210" fill="#000000" />
 
   <!-- Card Body (#FFFFFF, 3px #000000 border, 0px radius) -->
-  <rect x="6" y="6" width="445" height="204" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+  <rect x="6" y="6" width="445" height="210" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
 
   <!-- Header Strip -->
-  <rect x="6" y="6" width="445" height="44" fill="#FFE500" stroke="#000000" stroke-width="3" />
+  <rect x="6" y="6" width="445" height="44" fill="#FF689B" stroke="#000000" stroke-width="3" />
   <rect x="6" y="6" width="48" height="44" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
-  <text x="30" y="33" text-anchor="middle" class="idx">05</text>
-  <text x="68" y="34" class="card-title">ARCANE INTERACTIVE</text>
+  <text x="30" y="33" text-anchor="middle" class="idx">03</text>
+  <text x="66" y="34" class="card-title">ARCANE INTERACTIVE</text>
 
   <!-- Status Stamp -->
-  <rect x="330" y="16" width="108" height="24" fill="#62D8F9" stroke="#000000" stroke-width="2" />
-  <text x="384" y="32" text-anchor="middle" class="status-pill">LIVE ON VERCEL</text>
+  <rect x="322" y="16" width="116" height="24" fill="#FFFFFF" stroke="#000000" stroke-width="2" />
+  <text x="380" y="32" text-anchor="middle" class="status-pill">LIVE DEMO + REPO</text>
 
-  <!-- Description Copy (System Sans for strict readability) -->
-  <text x="24" y="82" class="desc">Cinematic web storytelling showcase engineered with GSAP</text>
-  <text x="24" y="106" class="desc">polygon clip-path morphing, choreographed hero reveals,</text>
-  <text x="24" y="130" class="desc">spatial audio controls, and frame-accurate video stages.</text>
+  <!-- Description Copy -->
+  <text x="24" y="82" class="desc">Front-end motion study inspired by Zentry and Arcane,</text>
+  <text x="24" y="106" class="desc">implementing GSAP polygon clip-path transitions, timed</text>
+  <text x="24" y="130" class="desc">video hero sequences, and interactive audio controls.</text>
 
-  <!-- Divider Line -->
-  <line x1="24" y1="154" x2="432" y2="154" stroke="#000000" stroke-width="2" stroke-dasharray="4 4" />
+  <!-- Structural Divider -->
+  <line x1="24" y1="158" x2="432" y2="158" stroke="#000000" stroke-width="2" />
 
-  <!-- Tech Stack Chips (Space Mono) -->
+  <!-- Tech Stack Chips -->
   
-    <g transform="translate(24.0, 174)">
-      <rect x="2" y="2" width="49.2" height="24" fill="#000000" />
-      <rect x="0" y="0" width="49.2" height="24" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
-      <text x="24.6" y="16" text-anchor="middle" class="chip-text">GSAP</text>
+    <g transform="translate(24.0, 178)">
+      <rect x="2" y="2" width="54.0" height="24" fill="#000000" />
+      <rect x="0" y="0" width="54.0" height="24" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+      <text x="27.0" y="16" text-anchor="middle" class="chip-text">HTML5</text>
     </g>
-    <g transform="translate(81.2, 174)">
-      <rect x="2" y="2" width="88.2" height="24" fill="#000000" />
-      <rect x="0" y="0" width="88.2" height="24" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
-      <text x="44.1" y="16" text-anchor="middle" class="chip-text">SVG MORPH</text>
+    <g transform="translate(86.0, 178)">
+      <rect x="2" y="2" width="46.4" height="24" fill="#000000" />
+      <rect x="0" y="0" width="46.4" height="24" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+      <text x="23.2" y="16" text-anchor="middle" class="chip-text">CSS3</text>
     </g>
-    <g transform="translate(177.4, 174)">
-      <rect x="2" y="2" width="96.0" height="24" fill="#000000" />
-      <rect x="0" y="0" width="96.0" height="24" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
-      <text x="48.0" y="16" text-anchor="middle" class="chip-text">JAVASCRIPT</text>
+    <g transform="translate(140.4, 178)">
+      <rect x="2" y="2" width="92.0" height="24" fill="#000000" />
+      <rect x="0" y="0" width="92.0" height="24" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+      <text x="46.0" y="16" text-anchor="middle" class="chip-text">JAVASCRIPT</text>
     </g>
-    <g transform="translate(281.4, 174)">
-      <rect x="2" y="2" width="57.0" height="24" fill="#000000" />
-      <rect x="0" y="0" width="57.0" height="24" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
-      <text x="28.5" y="16" text-anchor="middle" class="chip-text">AUDIO</text>
+    <g transform="translate(240.4, 178)">
+      <rect x="2" y="2" width="46.4" height="24" fill="#000000" />
+      <rect x="0" y="0" width="46.4" height="24" fill="#F5F0E8" stroke="#000000" stroke-width="2" />
+      <text x="23.2" y="16" text-anchor="middle" class="chip-text">GSAP</text>
     </g>
 </svg>
