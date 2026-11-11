@@ -8,7 +8,7 @@
   aria-labelledby="statsTitle statsDesc"
 >
   <title id="statsTitle">Maqhawe Thabiso Ngwenya â€” GitHub Activity</title>
-  <desc id="statsDesc">Public Repositories: 99, Commits (last year): 485, Total Stars Earned: 27, Issues: 21, Pull Requests: 1, Followers: 21</desc>
+  <desc id="statsDesc">Public Repositories: 100, Commits (last year): 496, Total Stars Earned: 27, Issues: 21, Pull Requests: 1, Followers: 21</desc>
   <style>
     .hdr {
       font: 900 15px 'Space Grotesk', 'Arial Black', sans-serif;
@@ -66,7 +66,7 @@
       <rect x="0" y="2" width="12" height="12" fill="#FFE500" stroke="#000000" stroke-width="2" />
       <text x="20" y="13" class="stat-label">Commits (Last Year)</text>
       <rect x="202" y="-3" width="64" height="22" fill="#FFE500" stroke="#000000" stroke-width="2" />
-      <text x="234" y="12" text-anchor="middle" class="stat-val" data-testid="commits">485</text>
+      <text x="234" y="12" text-anchor="middle" class="stat-val" data-testid="commits">496</text>
     </g>
     <!-- Row 2 -->
     <g transform="translate(0, 27)">
@@ -104,7 +104,7 @@
     <rect x="0" y="0" width="116" height="116" fill="#A6ECD3" stroke="#000000" stroke-width="3" />
     <rect x="0" y="0" width="116" height="28" fill="#000000" />
     <text x="58" y="18" text-anchor="middle" class="box-top">PUBLIC WORK</text>
-    <text x="58" y="74" text-anchor="middle" class="box-num" data-testid="repos">99</text>
+    <text x="58" y="74" text-anchor="middle" class="box-num" data-testid="repos">100</text>
     <text x="58" y="100" text-anchor="middle" class="box-caption">REPOSITORIES</text>
   </g>
 </svg>
