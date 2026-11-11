@@ -5,7 +5,7 @@
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
   role="img"
-  aria-label="Top Languages by Repository Byte Size: TypeScript 50.5%, HTML 28.0%, JavaScript 17.8%, CSS / Other 3.7%"
+  aria-label="Top Languages by Repository Byte Size: TypeScript 50.4%, HTML 28.0%, JavaScript 17.8%, CSS / Other 3.8%"
 >
   <style>
     .hdr {
@@ -45,10 +45,10 @@
   <!-- Segmented Brutalist Bar -->
   <g transform="translate(22, 62)">
     <rect x="3" y="3" width="413" height="22" fill="#000000" />
-    <rect x="0.00" y="0" width="208.56" height="22" fill="#FFE500" stroke="#000000" stroke-width="2.5" />
-    <rect x="208.56" y="0" width="115.64" height="22" fill="#62D8F9" stroke="#000000" stroke-width="2.5" />
-    <rect x="324.20" y="0" width="73.51" height="22" fill="#FF689B" stroke="#000000" stroke-width="2.5" />
-    <rect x="397.71" y="0" width="15.29" height="22" fill="#A6ECD3" stroke="#000000" stroke-width="2.5" />
+    <rect x="0.00" y="0" width="208.15" height="22" fill="#FFE500" stroke="#000000" stroke-width="2.5" />
+    <rect x="208.15" y="0" width="115.64" height="22" fill="#62D8F9" stroke="#000000" stroke-width="2.5" />
+    <rect x="323.79" y="0" width="73.51" height="22" fill="#FF689B" stroke="#000000" stroke-width="2.5" />
+    <rect x="397.30" y="0" width="15.7" height="22" fill="#A6ECD3" stroke="#000000" stroke-width="2.5" />
   </g>
 
   <!-- 2x2 Brutalist Language Blocks -->
@@ -59,7 +59,7 @@
         <rect x="0" y="0" width="198" height="34" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" />
         <rect x="0" y="0" width="28" height="34" fill="#FFE500" stroke="#000000" stroke-width="2.5" />
         <text x="38" y="22" class="lang-name">TypeScript</text>
-        <text x="188" y="22" text-anchor="end" class="lang-percent">50.5%</text>
+        <text x="188" y="22" text-anchor="end" class="lang-percent">50.4%</text>
       </g>
       <g transform="translate(0, 44)">
         <rect x="3" y="3" width="198" height="34" fill="#000000" />
@@ -81,7 +81,7 @@
         <rect x="0" y="0" width="198" height="34" fill="#F5F0E8" stroke="#000000" stroke-width="2.5" />
         <rect x="0" y="0" width="28" height="34" fill="#A6ECD3" stroke="#000000" stroke-width="2.5" />
         <text x="38" y="22" class="lang-name">CSS / Other</text>
-        <text x="188" y="22" text-anchor="end" class="lang-percent">3.7%</text>
+        <text x="188" y="22" text-anchor="end" class="lang-percent">3.8%</text>
       </g>
   </g>
 </svg>
