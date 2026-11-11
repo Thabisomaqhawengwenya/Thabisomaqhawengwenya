@@ -1,11 +1,11 @@
 <p align="center">
-  <a href="https://maqhawe-portfolio.vercel.app/">
+  <a href="https://maqhawe.vercel.app">
     <img src="hero-banner.svg" alt="Maqhawe Thabiso Ngwenya - Front-end Developer from Zimbabwe" width="100%" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://maqhawe-portfolio.vercel.app/"><img src="assets/btn-portfolio.svg" alt="View Portfolio at maqhawe-portfolio.vercel.app" width="32%" /></a>
+  <a href="https://maqhawe.vercel.app"><img src="assets/btn-portfolio.svg" alt="View Portfolio at maqhawe.vercel.app" width="32%" /></a>
   <a href="https://github.com/Thabisomaqhawengwenya?tab=repositories"><img src="assets/btn-repos.svg" alt="Browse GitHub Repositories" width="32%" /></a>
   <a href="https://github.com/Thabisomaqhawengwenya"><img src="assets/btn-github.svg" alt="GitHub Profile @Thabisomaqhawengwenya" width="32%" /></a>
 </p>
@@ -23,7 +23,7 @@ Alongside front-end development and UI/UX design, I regularly work with **Node.j
 </p>
 
 <p align="center">
-  <a href="https://maqhawe-portfolio.vercel.app/"><img src="assets/card-portfolio.svg" alt="01 - Developer Portfolio built with React, TypeScript, Styled Components, and Framer Motion" width="49%" /></a>
+  <a href="https://maqhawe.vercel.app"><img src="assets/card-portfolio.svg" alt="01 - Developer Portfolio built with React, TypeScript, Styled Components, and Framer Motion" width="49%" /></a>
   <a href="https://elohims-legacy.vercel.app"><img src="assets/card-elohim.svg" alt="02 - Elohim's Legacy 3D streetwear storefront built with React, Three.js, and TypeScript" width="49%" /></a>
 </p>
 
@@ -49,7 +49,7 @@ Alongside front-end development and UI/UX design, I regularly work with **Node.j
     <tr>
       <td><b>01. Developer Portfolio</b></td>
       <td>Neo-brutalist personal portfolio with 3D book pagination, scroll highlights, and Firebase CMS (<code>React</code>, <code>TypeScript</code>, <code>Styled Components</code>, <code>Vite</code>)</td>
-      <td><a href="https://maqhawe-portfolio.vercel.app/">Live Site</a> · <a href="https://github.com/Thabisomaqhawengwenya/portfolio">Source</a></td>
+      <td><a href="https://maqhawe.vercel.app">Live Site</a> · <a href="https://github.com/Thabisomaqhawengwenya/portfolio">Source</a></td>
     </tr>
     <tr>
       <td><b>02. Elohim's Legacy</b></td>
@@ -103,7 +103,7 @@ Alongside front-end development and UI/UX design, I regularly work with **Node.j
 ---
 
 <p align="center">
-  <a href="https://maqhawe-portfolio.vercel.app/">
-    <img src="assets/footer-banner.svg" alt="Maqhawe Thabiso Ngwenya - Front-end Developer - Visit Portfolio at maqhawe-portfolio.vercel.app" width="100%" />
+  <a href="https://maqhawe.vercel.app">
+    <img src="assets/footer-banner.svg" alt="Maqhawe Thabiso Ngwenya - Front-end Developer - Visit Portfolio at maqhawe.vercel.app" width="100%" />
   </a>
 </p>

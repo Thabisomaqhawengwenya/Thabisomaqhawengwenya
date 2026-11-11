@@ -1,4 +1,4 @@
-<svg width="304" height="56" viewBox="0 0 304 56" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="VIEW PORTFOLIO â€” MAQHAWE-PORTFOLIO.VERCEL.APP">
+<svg width="304" height="56" viewBox="0 0 304 56" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="VIEW PORTFOLIO â€” MAQHAWE.VERCEL.APP">
   <style>
     .btn-main { font: 800 13px 'Space Grotesk', 'Arial Black', sans-serif; fill: #000000; letter-spacing: 0.5px; }
     .btn-sub  { font: 700 10px 'Space Mono', 'Courier New', monospace; fill: #111111; }
@@ -7,7 +7,7 @@
   <rect x="8" y="8" width="294" height="46" fill="#000000" />
   <rect x="3" y="3" width="294" height="46" fill="#FFE500" stroke="#000000" stroke-width="3" />
   <text x="16" y="24" class="btn-main">VIEW PORTFOLIO</text>
-  <text x="16" y="40" class="btn-sub">MAQHAWE-PORTFOLIO.VERCEL.APP</text>
+  <text x="16" y="40" class="btn-sub">MAQHAWE.VERCEL.APP</text>
   <rect x="260" y="14" width="24" height="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
   <text x="267" y="31" class="btn-main">â†-</text>
 </svg>

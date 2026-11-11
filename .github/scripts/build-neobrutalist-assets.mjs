@@ -1,4 +1,4 @@
-﻿import fs from 'node:fs';
+import fs from 'node:fs';
 import path from 'node:path';
 
 const ROOT = process.cwd();
@@ -17,7 +17,7 @@ function esc(str) {
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
    1. HERO BANNER (hero-banner.svg) â€” 960x316
-   Directly translated from portfolio-one (https://maqhawe-portfolio.vercel.app/):
+   Directly translated from portfolio-one (https://maqhawe.vercel.app/):
    - Warm cream canvas (#F5F0E8), white surface (#FFFFFF), 3px solid #000000 border
    - 7px 7px 0px #000000 hard offset shadow, 0px border-radius
    - Greeting badge in #FFE500 with 3px black border
@@ -137,7 +137,7 @@ const heroSvg = `<svg width="960" height="316" viewBox="0 0 960 316" fill="none"
   <rect x="14" y="257" width="925" height="38" fill="#000000" stroke="#000000" stroke-width="3" />
   <circle cx="34" cy="276" r="5" fill="#00C853" />
   <text x="48" y="280" class="footer-bar-txt">OPEN TO WORK &amp; COLLABORATIONS</text>
-  <text x="918" y="280" text-anchor="end" class="footer-bar-accent">PORTFOLIO: MAQHAWE-PORTFOLIO.VERCEL.APP â†-</text>
+  <text x="918" y="280" text-anchor="end" class="footer-bar-accent">PORTFOLIO: MAQHAWE.VERCEL.APP â†-</text>
 </svg>
 `;
 
@@ -172,7 +172,7 @@ function makeButtonSvg({ filename, label, sublabel, bg, width = 304 }) {
 makeButtonSvg({
   filename: 'btn-portfolio.svg',
   label: 'VIEW PORTFOLIO',
-  sublabel: 'MAQHAWE-PORTFOLIO.VERCEL.APP',
+  sublabel: 'MAQHAWE.VERCEL.APP',
   bg: '#FFE500',
 });
 makeButtonSvg({
@@ -510,7 +510,7 @@ makeSectionHeaderSvg({
    6. MINIMAL CLOSING FOOTER (assets/footer-banner.svg) â€” 960x88
    Restrained, on-brand footer modeled after Footer/index.tsx
 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
-const footerSvg = `<svg width="960" height="88" viewBox="0 0 960 88" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Maqhawe Thabiso Ngwenya â€” Front-end Developer â€” Visit Portfolio at maqhawe-portfolio.vercel.app">
+const footerSvg = `<svg width="960" height="88" viewBox="0 0 960 88" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Maqhawe Thabiso Ngwenya â€” Front-end Developer â€” Visit Portfolio at maqhawe.vercel.app">
   <style>
     .f-eyebrow { font: 700 10.5px 'Space Mono', 'Courier New', Consolas, monospace; fill: #222222; letter-spacing: 1px; }
     .f-name    { font: 900 18px 'Space Grotesk', 'Arial Black', sans-serif; fill: #000000; letter-spacing: -0.3px; }
@@ -526,7 +526,7 @@ const footerSvg = `<svg width="960" height="88" viewBox="0 0 960 88" fill="none"
   <!-- Right CTA Box -->
   <rect x="652" y="25" width="268" height="36" fill="#000000" />
   <rect x="649" y="22" width="268" height="36" fill="#FFE500" stroke="#000000" stroke-width="2.5" />
-  <text x="783" y="45" text-anchor="middle" class="f-btn">MAQHAWE-PORTFOLIO.VERCEL.APP â†-</text>
+  <text x="783" y="45" text-anchor="middle" class="f-btn">MAQHAWE.VERCEL.APP â†-</text>
 </svg>
 `;
 

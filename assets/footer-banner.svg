@@ -1,4 +1,4 @@
-<svg width="960" height="88" viewBox="0 0 960 88" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Maqhawe Thabiso Ngwenya â€” Front-end Developer â€” Visit Portfolio at maqhawe-portfolio.vercel.app">
+<svg width="960" height="88" viewBox="0 0 960 88" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Maqhawe Thabiso Ngwenya â€” Front-end Developer â€” Visit Portfolio at maqhawe.vercel.app">
   <style>
     .f-eyebrow { font: 700 10.5px 'Space Mono', 'Courier New', Consolas, monospace; fill: #222222; letter-spacing: 1px; }
     .f-name    { font: 900 18px 'Space Grotesk', 'Arial Black', sans-serif; fill: #000000; letter-spacing: -0.3px; }
@@ -14,5 +14,5 @@
   <!-- Right CTA Box -->
   <rect x="652" y="25" width="268" height="36" fill="#000000" />
   <rect x="649" y="22" width="268" height="36" fill="#FFE500" stroke="#000000" stroke-width="2.5" />
-  <text x="783" y="45" text-anchor="middle" class="f-btn">MAQHAWE-PORTFOLIO.VERCEL.APP â†-</text>
+  <text x="783" y="45" text-anchor="middle" class="f-btn">MAQHAWE.VERCEL.APP â†-</text>
 </svg>
